@@ -76,49 +76,49 @@ extern "C" {
 
 #endif	/* XC_HEADER_TEMPLATE_H */
 
-
+// DIRCTION 
 #define OUT 1 ;
 #define IN 0;
 
 // pins numbers for port A 
-#define bin_a0 0
-#define bin_a1 1
-#define bin_a2 2
-#define bin_a3 3
-#define bin_a4 4
-#define bin_a5 5
-#define bin_a6 6
-#define bin_a7 7
+#define Pin_a0 0
+#define Pin_a1 1
+#define Pin_a2 2
+#define Pin_a3 3
+#define Pin_a4 4
+#define Pin_a5 5
+#define Pin_a6 6
+#define Pin_a7 7
 
 //pins numbers for port B
-#define bin_b0 0
-#define bin_b1 1
-#define bin_b2 2
-#define bin_b3 3
-#define bin_b4 4
-#define bin_b5 5
-#define bin_b6 6
-#define bin_b7 7
+#define Pin_b0 0
+#define Pin_b1 1
+#define Pin_b2 2
+#define Pin_b3 3
+#define Pin_b4 4
+#define Pin_b5 5
+#define Pin_b6 6
+#define Pin_b7 7
 
 // pins numbers for port c
-#define bin_c0 0
-#define bin_c1 1
-#define bin_c2 2
-#define bin_c3 3
-#define bin_c4 4
-#define bin_c5 5
-#define bin_c6 6
-#define bin_c7 7
+#define Pin_c0 0
+#define Pin_c1 1
+#define Pin_c2 2
+#define Pin_c3 3
+#define Pin_c4 4
+#define Pin_c5 5
+#define Pin_c6 6
+#define Pin_c7 7
 
 // pins numbrs for port D
-#define bin_d0 0
-#define bin_d1 1
-#define bin_d2 2
-#define bin_d3 3
-#define bin_d4 4
-#define bin_d5 5
-#define bin_d6 6
-#define bin_d7 7
+#define Pin_d0 0
+#define Pin_d1 1
+#define Pin_d2 2
+#define Pin_d3 3
+#define Pin_d4 4
+#define Pin_d5 5
+#define Pin_d6 6
+#define Pin_d7 7
  
 // set pin funcation (high)
 void setpin_a (int pinumber);
